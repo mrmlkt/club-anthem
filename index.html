@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darkness of Night Ambient Player</title>
+  <style>
+    /* Dark ://chess.com Theme */
+    body {
+      background-color: #262522; /* Matches Chess.com Dark UI */
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #ffffff;
+      margin: 0;
+      padding: 15px;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .player-card {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background-color: #312e2b;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      width: 100%;
+      max-width: 360px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    }
+
+    .title-area {
+      margin-bottom: 15px;
+    }
+
+    .title-area h3 {
+      margin: 0 0 5px 0;
+      letter-spacing: 2px;
+      color: #cbca46; /* Gold brand color */
+    }
+
+    .title-area p {
+      color: #a7a5a1;
+      font-size: 13px;
+      margin: 0;
+    }
+
+    /* Seamless container for the custom cloud player asset */
+    .soundcloud-wrapper {
+      border-radius: 8px;
+      overflow: hidden;
+      margin-top: 10px;
+      background: #121212;
+      box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Premium Sound Station Dashboard Card -->
+  <div class="player-card">
+    <div class="title-area">
+      <h3>CLUB ANTHEM STATION</h3>
+      <p>NO BATIDÃO — CODEX</p>
+    </div>
+
+    <!-- SOUNDCLOUD COMPATIBILITY EMBED LAYER -->
+    <div class="soundcloud-wrapper">
+      <iframe 
+        width="100%" 
+        height="166" 
+        scrolling="no" 
+        frameborder="no" 
+        allow="autoplay" 
+        src="https://soundcloud.com">
+      </iframe>
+    </div>
+  </div>
+
+</body>
+</html>
